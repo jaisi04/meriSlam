@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 3, 2016, 8:20:20 AM
+    Author     : akshay
+*/
+
+ul{
+    padding: 0;
+    margin: 0 0 20px 0;
+    list-style: none;
+}
+
+h1,h2,h3{
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-weight: normal; 
+}
+p{
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+a:visited{
+    text-decoration: underline;
+    color: #000;
+}
+a:link, a:hover{
+    text-decoration: none;
+}
+ul li{
+    padding: 5px 0;
+}
+ul li input[type="text"], ul li input[type="password"]{
+    width:200px;
+}
+
+.logo{
+    font: 2em sans-serif;
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 200px;
+    color: #970472;
+    text-decoration: cancel-underline;
+}
+
+body{
+    background: #AAB6BD;
+    font-family:sans-serif;
+    font-size: 1em;
+}
+
+#container, footer{
+    background: #fff;
+    width:92%;
+    margin:0 auto;
+    padding: 20px;
+}
+header{
+    width:94%;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+}
+
+#container{
+    min-height: 440px;
+    border-radius: 5px 5px 0 0;
+   
+}
+
+footer{
+    border-radius: 0 0 5px 5px;
+}
+.widget{
+    margin-bottom: 20px;
+    position:absolute;
+    display: inline;
+    align:right;
+}
+.widget h2{
+    margin: 0 0 10px 0;
+    padding: 0 5px;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+}
+
+.widget .inner{
+    margin: 0 10px;
+}
+
+nav{
+    float: left;
+}
+nav ul{
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li.current{
+    font-weight: bold;
+    text-decoration: underline;
+}
+nac ul li a.last{
+    border-right:0; 
+}
+
+aside{
+    width: 260px;
+    float: right;
+    border-left: 1px dashed #aaa;
+    padding-left: 15px;
+}
+
+#login li.link{
+    margin-top: 5px;
+}
+footer{
+    border-top:10px dashed #ddd;
+    color: #999;
+}
+.clear{
+    clear: both;
+}
+
+input[type="text"],input[type="password"],input[type="date"],input[type="email"]{
+    border-radius: 7px;
+    margin-bottom: 2px;
+    border-style: double;
+    border-color: #ddd;
+    width: 200px;
+}
+.btn{
+    width: 60px; 
+    border-radius: 7px;
+    border-style: double;
+    border-color: #ddd;
+    margin-bottom: 2px;
+}
+
+fieldset{
+    width: 40%;
+    border-style: double;
+    border-radius: 5px;
+}
+
+tr{
+    padding: 10px;
+}
+td{
+    margin-right: 35px;
+    width: 350px;
+}
+select{
+    width: 200px;
+    margin:0;
+    padding: 0;
+    border-style: double;
+}
+.rad{
+    display: inline;
+    position: absolute;
+}
+
+textarea{
+    border-radius: 7px;
+    border-style: double;
+}
